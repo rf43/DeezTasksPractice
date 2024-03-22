@@ -1,5 +1,6 @@
 package net.cursedfunction.deeztasks.ui.home
 
+import android.util.Log
 import androidx.lifecycle.ViewModel
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
@@ -23,7 +24,48 @@ class HomeScreenViewModel : ViewModel() {
 
     init {
         _homeScreenState.value = HomeScreenState(
-            title = "DeezTasks"
+            title = "DeezTasks",
+            taskItems = createTaskItems()
         )
+    }
+
+    private fun createTaskItems(): List<TaskItem> {
+        val taskItems = mutableListOf<TaskItem>()
+        for (i in 0..40) {
+            taskItems.add(
+                TaskItem(
+                    id = i,
+                    title = "Task",
+                    description = "This is a task with a long description so that it " +
+                            "overflows and gets ellipsized. This is a task with a long " +
+                            "description so that it overflows and gets ellipsized. This " +
+                            "is a task with a long description so that it overflows and " +
+                            "gets ellipsized. This is a task with a long description so " +
+                            "that it overflows and gets ellipsized. This is a task with " +
+                            "a long description so that it overflows and gets " +
+                            "ellipsized. This is a task with a long description so that " +
+                            "it overflows and gets ellipsized. This is a task with a " +
+                            "long description so that it overflows and gets ellipsized.",
+                    isCompleted = i % 2 == 0
+                )
+            )
+        }
+        return taskItems
+    }
+
+    fun addNewTask() {
+        Log.d("RF43", "addNewTask")
+    }
+
+    fun editTask(taskItem: TaskItem) {
+        Log.d("RF43", "editTask: $taskItem")
+    }
+
+    fun deleteTask(taskItem: TaskItem) {
+        Log.d("RF43", "deleteTask: $taskItem")
+    }
+
+    fun completeTask(taskItem: TaskItem) {
+        Log.d("RF43", "completeTask: $taskItem")
     }
 }
