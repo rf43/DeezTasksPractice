@@ -165,6 +165,8 @@ private fun HomeScreenContent(
     ) {
         val listState = rememberLazyListState()
 
+        // Implement a way to add tasks and remove tasks
+
         LazyColumn(
             modifier = Modifier.fillMaxSize(),
             state = listState,
