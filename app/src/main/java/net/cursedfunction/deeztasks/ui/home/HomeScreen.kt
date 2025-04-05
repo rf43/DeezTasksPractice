@@ -1,4 +1,4 @@
-package net.cursedfunction.deeztasks.ui.home
+package net.cursedfunction.deeztaskz.ui.home
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.padding
@@ -16,7 +16,7 @@ import androidx.compose.runtime.saveable.rememberSaveable
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.PreviewLightDark
-import net.cursedfunction.deeztasks.ui.theme.DeezTasksTheme
+import net.cursedfunction.deeztaskz.ui.theme.DeezTaskzTheme
 
 @Composable
 fun HomeScreenRoute(
@@ -84,11 +84,11 @@ private fun HomeScreen(
 @PreviewLightDark
 @Composable
 private fun HomeScreenPreview() {
-    DeezTasksTheme {
+    DeezTaskzTheme {
         Surface {
             HomeScreen(
                 screenState = HomeScreenState(
-                    title = "DeezTasks",
+                    title = "DeezTaskz",
                     taskItems = listOf(
                         TaskItem(
                             id = 1,

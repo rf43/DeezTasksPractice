@@ -1,4 +1,4 @@
-package net.cursedfunction.deeztasks.ui.home
+package net.cursedfunction.deeztaskz.ui.home
 
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Add

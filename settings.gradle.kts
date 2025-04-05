@@ -21,5 +21,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "DeezTasks"
+rootProject.name = "DeezTaskz"
 include(":app")

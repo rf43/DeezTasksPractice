@@ -1,4 +1,4 @@
-package net.cursedfunction.deeztasks.ui.home
+package net.cursedfunction.deeztaskz.ui.home
 
 import android.util.Log
 import androidx.lifecycle.ViewModel
@@ -24,7 +24,7 @@ class HomeScreenViewModel : ViewModel() {
 
     init {
         _homeScreenState.value = HomeScreenState(
-            title = "DeezTasks",
+            title = "DeezTaskz",
             taskItems = createTaskItems()
         )
     }

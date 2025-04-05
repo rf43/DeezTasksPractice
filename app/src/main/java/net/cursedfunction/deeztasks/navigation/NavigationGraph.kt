@@ -1,11 +1,11 @@
-package net.cursedfunction.deeztasks.navigation
+package net.cursedfunction.deeztaskz.navigation
 
 import androidx.compose.runtime.Composable
 import androidx.navigation.NavHostController
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
-import net.cursedfunction.deeztasks.ui.home.HomeScreenRoute
-import net.cursedfunction.deeztasks.ui.home.HomeScreenViewModel
+import net.cursedfunction.deeztaskz.ui.home.HomeScreenRoute
+import net.cursedfunction.deeztaskz.ui.home.HomeScreenViewModel
 
 enum class ScreenRoute(val route: String) {
     HOME("home"),

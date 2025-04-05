@@ -1,4 +1,4 @@
-package net.cursedfunction.deeztasks
+package net.cursedfunction.deeztaskz
 
 import org.junit.Test
 

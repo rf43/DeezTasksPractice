@@ -1,4 +1,4 @@
-package net.cursedfunction.deeztasks
+package net.cursedfunction.deeztaskz
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4
@@ -19,6 +19,6 @@ class ExampleInstrumentedTest {
     fun useAppContext() {
         // Context of the app under test.
         val appContext = InstrumentationRegistry.getInstrumentation().targetContext
-        assertEquals("net.cursedfunction.deeztasks", appContext.packageName)
+        assertEquals("net.cursedfunction.deeztaskz", appContext.packageName)
     }
 }

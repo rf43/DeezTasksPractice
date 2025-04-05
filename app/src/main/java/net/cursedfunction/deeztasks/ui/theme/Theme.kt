@@ -1,4 +1,4 @@
-package net.cursedfunction.deeztasks.ui.theme
+package net.cursedfunction.deeztaskz.ui.theme
 
 import android.app.Activity
 import android.os.Build
@@ -92,7 +92,7 @@ private val darkScheme = darkColorScheme(
 )
 
 @Composable
-fun DeezTasksTheme(
+fun DeezTaskzTheme(
     darkTheme: Boolean = isSystemInDarkTheme(),
     dynamicColor: Boolean = false,
     content: @Composable () -> Unit

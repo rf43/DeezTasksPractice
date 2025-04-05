@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace = "net.cursedfunction.deeztasks"
+    namespace = "net.cursedfunction.deeztaskz"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "net.cursedfunction.deeztasks"
+        applicationId = "net.cursedfunction.deeztaskz"
         minSdk = 24
         targetSdk = 34
         versionCode = 1

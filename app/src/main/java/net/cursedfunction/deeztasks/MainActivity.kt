@@ -1,4 +1,4 @@
-package net.cursedfunction.deeztasks
+package net.cursedfunction.deeztaskz
 
 import android.annotation.SuppressLint
 import android.content.pm.ActivityInfo
@@ -11,15 +11,15 @@ import androidx.compose.material3.Surface
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.LocalContext
 import androidx.navigation.compose.rememberNavController
-import net.cursedfunction.deeztasks.navigation.NavigationGraph
-import net.cursedfunction.deeztasks.ui.theme.DeezTasksTheme
+import net.cursedfunction.deeztaskz.navigation.NavigationGraph
+import net.cursedfunction.deeztaskz.ui.theme.DeezTaskzTheme
 
 class MainActivity : ComponentActivity() {
     @SuppressLint("SourceLockedOrientationActivity")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContent {
-            DeezTasksTheme {
+            DeezTaskzTheme {
                 // A surface container using the 'background' color from the theme
                 Surface(
                     modifier = Modifier.fillMaxSize(),

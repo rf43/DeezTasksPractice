@@ -1,4 +1,4 @@
-package net.cursedfunction.deeztasks.ui.theme
+package net.cursedfunction.deeztaskz.ui.theme
 
 import androidx.compose.ui.graphics.Color
 

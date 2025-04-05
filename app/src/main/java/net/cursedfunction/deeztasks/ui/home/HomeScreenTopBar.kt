@@ -1,4 +1,4 @@
-package net.cursedfunction.deeztasks.ui.home
+package net.cursedfunction.deeztaskz.ui.home
 
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer

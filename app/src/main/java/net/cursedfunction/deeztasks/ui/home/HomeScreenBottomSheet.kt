@@ -1,4 +1,4 @@
-package net.cursedfunction.deeztasks.ui.home
+package net.cursedfunction.deeztaskz.ui.home
 
 import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.SheetState

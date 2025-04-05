@@ -1,1 +1,1 @@
-# DeezTasksPractice
+# DeezTaskzPractice
